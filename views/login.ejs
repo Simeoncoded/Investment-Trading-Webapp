@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="form-body">
+
+            <% if (message.length > 0) { %>
+                <div class="login-error">
+                <p><%= message %></p>
+                </div>
+              <% } %>
+              <% if (messages.success) { %>
+                <div class="login-success">
+                <p style="color: green;"><%= messages.success %></p>
+                </div>
+            <% } %>
+            <h1>Login here</h1>
+        <form action="/login" method="post">
+
+                <div class="form-elements">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="form-elements">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" name="password" required>
+                </div>
+            <div class="btnSub">
+                <input type="submit" value="Login" name="submit">
+            </div>
+            <div class="form-elements">
+                <strong>Don't have an account? <a href="/signup">Sign up</a></strong>
+            </div>
+            <h4 style="text-align: center;" ><a href="/" style="text-decoration: none;">Click here to go back to home page</a></h4>
+        </form>
+        <!-- Display error message if it exists -->
+
+    </div>
+    </main>
+</body>
+</html>

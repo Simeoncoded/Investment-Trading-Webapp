@@ -1,0 +1,99 @@
+/*Feedback*/
+.feedback-section {
+    border: 1px solid #03254E;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 93%;
+}
+
+.feedback-section h2 {
+    font-size: 1.55em;
+    text-align: center;
+}
+
+.feedback-col {
+    display: grid;
+}
+
+.feedback-col {
+    grid-template-columns: 1fr;
+}
+
+.feedback-txt {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.feedback-txt h3 {
+    font-size: 1.0em;
+}
+
+.feedback-txt p {
+    font-size: 0.9em;
+}
+
+.feedback-form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+input[type="text"],
+input[type="email"] {
+    border: 1px solid #03254E;
+    border-radius: 2px;
+    height: 35px;
+    margin-top: 5px;
+    outline: none;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background: #305252;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.9em;
+    margin-top: 15px;
+    padding: 10px 30px;
+}
+
+textarea {
+    border: 1px solid #03254E;
+    border-radius: 2px;
+    height: 100px;
+    margin-top: 5px;
+    outline: none;
+    width: 100%;
+}
+
+label {
+    color: #03254E;
+    font-size: 0.9em;
+}
+
+.btnSub {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 10%;
+}
+
+.images-show {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.images-showcol {
+    display: grid;
+    gap: 20px;
+}
+
+.images-showcol {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.images-show img {
+    border-radius: 5px;
+    width: 100%;
+}

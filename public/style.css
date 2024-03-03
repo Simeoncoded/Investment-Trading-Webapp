@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f054c;
+}
+h1{
+    text-align: center;
+    color: #0f054c;
+}
+.form-body{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 10px #000;
+}
+input[type=text],input[type=password],input[type=email]{
+    height: 40px;
+    width: 100%;
+    border: 2px solid #0f054c;
+    color: #0f054c;
+    background: transparent;
+    border-radius: 10px;
+}
+::placeholder {
+    color: #0f054c;
+  }
+input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,select:focus{
+    outline: none;
+}
+label{
+    color: #0f054c;
+}
+select{
+    height: 30px;
+    width: 100%;
+    color: #0f054c;
+    background: transparent;
+    border: 2px solid #0f054c;
+    border-radius: 3px;
+}
+.btnSub{
+    padding-top: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+.form-elements{
+    padding-top: 15px;
+    color: #0f054c;
+}
+.form-elements a{
+    text-decoration: none;
+}
+input[type=submit]{
+    height:40px;
+    width: 100px;
+    background-color: #fff;
+    color: #0f054c;
+    border: 2px solid #0f054c;
+    cursor: pointer;
+    border-radius: 20px;
+}
+input[type=submit]:hover{
+    background: #0f054c;
+    color: #fff;
+    transition: 0.4s ease-in;
+}
+.login-error{
+    background-color: rgba(255, 0, 0, 0.1);
+    color: red;
+    height: 30px;
+}
+.login-success{
+    background-color:rgba(0, 255, 0, 0.1);
+    height: 30px;
+    color: green;
+}
+.login-error p, .login-success p{
+    text-align: center;
+    padding-top: 4px;
+}
+footer{
+    margin-top: 500px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .btnSub{
+        width: 24%;
+    }  
+}
+@media screen and (min-width: 1024px) {
+    .btnSub{
+        width: 19%;
+    }  
+}
+@media screen and (min-width: 1440px) {
+    .btnSub{
+        width: 25%;
+    }  
+    .form-body{
+        width: 30%;
+    }
+}

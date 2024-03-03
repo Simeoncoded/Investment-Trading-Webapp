@@ -1,0 +1,90 @@
+.navbar{
+    background-color: #ffbf00;
+}
+.offcanvas-title {
+    color: #ffbf00 !important;
+}
+.nav-link {
+    color: #ffbf00 !important;
+}
+
+.firstsection{
+    background-color: #ffbf00;
+    height:250px;
+}
+.search-btn{
+    background-color: #ffbf00 !important;
+    color: white !important;
+}
+.inner_box{
+    background-color: white;
+    color: #ffbf00;
+    width: 50%;
+    margin-top: -140px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
+    padding: 20px;
+}
+@media screen and (min-width: 700px){
+    .firstsection{
+        height: 300px;
+    }
+    .inner_box{
+        margin-top: -180px;
+    }
+    .icon{
+        margin-left: 30%;
+        padding: 0%;
+    }
+}
+.boxes{
+    margin-bottom: 50px;
+    box-shadow: 1px 0.5px 3px black;
+    border-radius: 20px;
+    padding: 5%;
+}
+.plan{
+    width: 90%;
+    box-shadow: 0px 0px 3px black;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.buy_plan{
+    margin-left: 45%;
+    margin-right: auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+tr{
+    background-color: #ffbf00;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.Transaction{
+    width: 90%;
+    box-shadow: 0px 0px 3px black;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.no_record{
+    background-color: white;
+    color: #ffbf00;
+}
