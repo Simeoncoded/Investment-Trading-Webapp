@@ -18,7 +18,7 @@
     "passport-local": "^1.0.0"
   },
   "scripts": {
-    "build": "node src/index.js"
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC"
