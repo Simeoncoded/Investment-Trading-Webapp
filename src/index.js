@@ -398,6 +398,11 @@ function checkNotAuthenticated(req, res, next) {
   next()
 }
 
+// Define catch-all route for 404 errors
+app.use((req, res) => {
+  res.status(404).render("404");
+});
+
 const port = 5000;
 
 app.listen(port, () => {
