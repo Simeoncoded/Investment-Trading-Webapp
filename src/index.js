@@ -342,7 +342,7 @@ passport.deserializeUser(async (id, done) => {
 //implement passport in login route
 app.post('/login', checkNotAuthenticated, passport.authenticate('local', {
   successRedirect: '/dashboard',
-  failureRedirect: '/',
+  failureRedirect: '/login',
   failureFlash: true // Enable flash messages for error handling
 }));
 
